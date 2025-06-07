@@ -14,9 +14,7 @@ function App() {
   //  { input: 'Say hi to gran gran', complete: true },
   //]
 
-  const [todos, setTodos] = useState([
-    { input: 'Hello! Add your first todo!', complete: false},
-  ])
+  const [todos, setTodos] = useState([])
 
    const [selectedTab, setSelectedTab] = useState('Open');
 
